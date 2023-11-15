@@ -14,6 +14,11 @@ const routes = [
     path: '/about',
     name: 'about',
     component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/excel',
+    name: 'excel',
+    component: () => import('../views/ExcelParse.vue')
   }
 ]
 
